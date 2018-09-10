@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		F438EA5D2146BDF200ABE3E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA5C2146BDF200ABE3E8 /* AppDelegate.swift */; };
-		F438EA5F2146BDF200ABE3E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA5E2146BDF200ABE3E8 /* ViewController.swift */; };
-		F438EA622146BDF200ABE3E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F438EA602146BDF200ABE3E8 /* Main.storyboard */; };
 		F438EA642146BDF400ABE3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F438EA632146BDF400ABE3E8 /* Assets.xcassets */; };
 		F438EA672146BDF400ABE3E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F438EA652146BDF400ABE3E8 /* LaunchScreen.storyboard */; };
+		F438EA752146C1AD00ABE3E8 /* ZDRootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA742146C1AD00ABE3E8 /* ZDRootTabBarController.swift */; };
+		F438EA7B2146C2B500ABE3E8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA7A2146C2B500ABE3E8 /* BaseViewController.swift */; };
+		F438EA7D2146C2E800ABE3E8 /* BaseNavControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA7C2146C2E800ABE3E8 /* BaseNavControllerViewController.swift */; };
+		F438EA7F2146C36200ABE3E8 /* DefineAppTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA7E2146C36200ABE3E8 /* DefineAppTabbar.swift */; };
+		F438EA812146C41E00ABE3E8 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA802146C41E00ABE3E8 /* UIColor+Hue.swift */; };
+		F438EA832146C6BF00ABE3E8 /* HomeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA822146C6BF00ABE3E8 /* HomeMainViewController.swift */; };
+		F438EA852146C6EA00ABE3E8 /* DetailMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA842146C6EA00ABE3E8 /* DetailMainViewController.swift */; };
+		F438EA872146C71300ABE3E8 /* MyCenterMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA862146C71300ABE3E8 /* MyCenterMainViewController.swift */; };
+		F438EA892146C94E00ABE3E8 /* BaseAppWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438EA882146C94E00ABE3E8 /* BaseAppWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F438EA592146BDF200ABE3E8 /* RecordKnots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordKnots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F438EA5C2146BDF200ABE3E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F438EA5E2146BDF200ABE3E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F438EA612146BDF200ABE3E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F438EA632146BDF400ABE3E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F438EA662146BDF400ABE3E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F438EA682146BDF400ABE3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F438EA742146C1AD00ABE3E8 /* ZDRootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDRootTabBarController.swift; sourceTree = "<group>"; };
+		F438EA7A2146C2B500ABE3E8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F438EA7C2146C2E800ABE3E8 /* BaseNavControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavControllerViewController.swift; sourceTree = "<group>"; };
+		F438EA7E2146C36200ABE3E8 /* DefineAppTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefineAppTabbar.swift; sourceTree = "<group>"; };
+		F438EA802146C41E00ABE3E8 /* UIColor+Hue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hue.swift"; sourceTree = "<group>"; };
+		F438EA822146C6BF00ABE3E8 /* HomeMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainViewController.swift; sourceTree = "<group>"; };
+		F438EA842146C6EA00ABE3E8 /* DetailMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMainViewController.swift; sourceTree = "<group>"; };
+		F438EA862146C71300ABE3E8 /* MyCenterMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCenterMainViewController.swift; sourceTree = "<group>"; };
+		F438EA882146C94E00ABE3E8 /* BaseAppWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAppWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,102 @@
 		F438EA5B2146BDF200ABE3E8 /* RecordKnots */ = {
 			isa = PBXGroup;
 			children = (
-				F438EA5C2146BDF200ABE3E8 /* AppDelegate.swift */,
-				F438EA5E2146BDF200ABE3E8 /* ViewController.swift */,
-				F438EA602146BDF200ABE3E8 /* Main.storyboard */,
-				F438EA632146BDF400ABE3E8 /* Assets.xcassets */,
-				F438EA652146BDF400ABE3E8 /* LaunchScreen.storyboard */,
+				F438EA762146C26600ABE3E8 /* Define */,
+				F438EA712146C09100ABE3E8 /* Until */,
+				F438EA702146C07200ABE3E8 /* Base */,
+				F438EA6F2146C05200ABE3E8 /* Recoures */,
+				F438EA732146C10400ABE3E8 /* Manager */,
+				F438EA722146C0CC00ABE3E8 /* Modules */,
+				F438EA6E2146BF8300ABE3E8 /* Other */,
 				F438EA682146BDF400ABE3E8 /* Info.plist */,
 			);
 			path = RecordKnots;
+			sourceTree = "<group>";
+		};
+		F438EA6E2146BF8300ABE3E8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F438EA5C2146BDF200ABE3E8 /* AppDelegate.swift */,
+				F438EA742146C1AD00ABE3E8 /* ZDRootTabBarController.swift */,
+				F438EA652146BDF400ABE3E8 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F438EA6F2146C05200ABE3E8 /* Recoures */ = {
+			isa = PBXGroup;
+			children = (
+				F438EA632146BDF400ABE3E8 /* Assets.xcassets */,
+			);
+			path = Recoures;
+			sourceTree = "<group>";
+		};
+		F438EA702146C07200ABE3E8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F438EA7A2146C2B500ABE3E8 /* BaseViewController.swift */,
+				F438EA7C2146C2E800ABE3E8 /* BaseNavControllerViewController.swift */,
+				F438EA882146C94E00ABE3E8 /* BaseAppWindow.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F438EA712146C09100ABE3E8 /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				F438EA802146C41E00ABE3E8 /* UIColor+Hue.swift */,
+			);
+			path = Until;
+			sourceTree = "<group>";
+		};
+		F438EA722146C0CC00ABE3E8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F438EA772146C27400ABE3E8 /* Home */,
+				F438EA792146C29200ABE3E8 /* Detail */,
+				F438EA782146C28700ABE3E8 /* Center */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F438EA732146C10400ABE3E8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Manager;
+			path = RecordKnots/Manager;
+			sourceTree = SOURCE_ROOT;
+		};
+		F438EA762146C26600ABE3E8 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				F438EA7E2146C36200ABE3E8 /* DefineAppTabbar.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		F438EA772146C27400ABE3E8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F438EA822146C6BF00ABE3E8 /* HomeMainViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F438EA782146C28700ABE3E8 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				F438EA862146C71300ABE3E8 /* MyCenterMainViewController.swift */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		F438EA792146C29200ABE3E8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F438EA842146C6EA00ABE3E8 /* DetailMainViewController.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +226,6 @@
 			files = (
 				F438EA672146BDF400ABE3E8 /* LaunchScreen.storyboard in Resources */,
 				F438EA642146BDF400ABE3E8 /* Assets.xcassets in Resources */,
-				F438EA622146BDF200ABE3E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +236,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F438EA5F2146BDF200ABE3E8 /* ViewController.swift in Sources */,
+				F438EA852146C6EA00ABE3E8 /* DetailMainViewController.swift in Sources */,
+				F438EA812146C41E00ABE3E8 /* UIColor+Hue.swift in Sources */,
+				F438EA7F2146C36200ABE3E8 /* DefineAppTabbar.swift in Sources */,
 				F438EA5D2146BDF200ABE3E8 /* AppDelegate.swift in Sources */,
+				F438EA872146C71300ABE3E8 /* MyCenterMainViewController.swift in Sources */,
+				F438EA752146C1AD00ABE3E8 /* ZDRootTabBarController.swift in Sources */,
+				F438EA7B2146C2B500ABE3E8 /* BaseViewController.swift in Sources */,
+				F438EA7D2146C2E800ABE3E8 /* BaseNavControllerViewController.swift in Sources */,
+				F438EA892146C94E00ABE3E8 /* BaseAppWindow.swift in Sources */,
+				F438EA832146C6BF00ABE3E8 /* HomeMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F438EA602146BDF200ABE3E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F438EA612146BDF200ABE3E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F438EA652146BDF400ABE3E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76BMF3T3AW;
 				INFOPLIST_FILE = RecordKnots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zd.RecordKnots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76BMF3T3AW;
 				INFOPLIST_FILE = RecordKnots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zd.RecordKnots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
