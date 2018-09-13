@@ -11,11 +11,11 @@ import UIKit
  *  app基类视图控制器
  */
 class BaseViewController: UIViewController {
-
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,15 +23,19 @@ class BaseViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    /// 设置导航栏标题
+    func setNavTitle(title: String) {
+        self.navigationItem.titleView = BaseViewModel.creatLab(title: title, font: UIFont.systemFont(ofSize: 18, weight: .medium), color: UIColor.hex("666666"))
     }
-    */
-
 }
+
+
+
+
+
+
+
+
+
+
+

@@ -55,7 +55,7 @@ class ZDRootTabBarController: UITabBarController{
 extension ZDRootTabBarController: UINavigationControllerDelegate {
     /// 隐藏所有导航栏
     func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
-        navigationController.setNavigationBarHidden(true, animated: animated)
+       // navigationController.setNavigationBarHidden(true, animated: animated)
     }
     
 }
